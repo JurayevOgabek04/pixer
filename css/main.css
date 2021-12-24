@@ -1,0 +1,169 @@
+
+.container{
+    max-width: 1160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 0px rgb(184, 181, 181);
+}
+
+.logo{
+    display: flex;
+    width: 58.11px;
+    height: 20px;
+    color: #191919;
+}
+
+.list-items{
+    list-style: none;
+    display: flex;
+    margin-left: 350px;
+   
+}
+.list-item{
+    margin: 10px;
+    
+}
+.list-item>a{
+    text-decoration: none;
+}
+.tel-nomber{
+    display: flex;
+}
+.tel-nomber{
+    display: flex;
+    color: #FFFFFF;
+    background-color: #00BAFC;
+    text-decoration: none;
+    Width: 159px;
+    Height :40px;
+    align-items: center;
+    padding-left: 16px;
+    border-radius: 5px;
+    margin-left: auto;
+
+}
+.list-item:hover{
+    border-bottom: 2px solid rgb(46, 44, 44);
+}
+.drapdown{
+    display: none;
+    position: absolute;
+    list-style: none;
+    z-index: -1;
+}
+.drapdown-menu{
+    display: block;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.list-item:hover .drapdown-menu{
+    display: block;
+    flex-direction: column;
+
+}
+
+
+.header-bottom{
+    margin-right: 20px;
+    width: 40%;
+}
+
+.header-bottom>a{
+    background-color: #00BAFC;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header-bottom > p{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav{
+    display: flex;
+    margin: 90px 0px;
+    justify-content: space-between;
+}
+
+.main-top{
+    text-align: center;
+    justify-content: center;
+}
+
+.main-top > h1{
+    font-size: 24px;
+    line-height: 31px;
+    line-height: 130%;
+    
+}
+.main-top > p{
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 110%;
+    width: 60%;
+    margin-left: 230px;
+
+}
+.cards{
+    display: flex;
+    margin: 70px;
+}
+
+.card3{
+    box-shadow: 0px 8px 0px rgb(212, 209, 209);
+    margin-left: auto;
+    text-align: center;
+}
+
+.card2{
+    box-shadow: 0px 8px 0px rgb(202, 199, 199);
+    margin-left: 25%;
+    text-align: center;
+}
+.card1{
+    box-shadow: 0px 8px 0px rgb(214, 210, 210);
+    text-align: center;
+}
+
+.cards2{ 
+    display: flex;
+}
+
+.card4{
+    box-shadow: 0px 8px rgb(226, 221, 221);
+    text-align: center;
+    margin-left: 300px;
+}
+.card5{
+    box-shadow: 0px 8px rgb(223, 219, 219);
+    text-align: center;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.text1{
+    font-size: 18px;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    width: 150px;
+    padding: 16px;
+    margin: 100px 0px;
+    margin-left: 30%; 
+     
+}
+
+.text1>a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
